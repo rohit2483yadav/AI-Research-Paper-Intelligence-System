@@ -1,11 +1,5 @@
-# AI Research Paper Analyzer
 
-AI Research Paper Analyzer is an NLP-based application that helps users search, analyze, and understand research papers using semantic search, transformer models, vector databases, and Large Language Models (LLMs).
-
-The system retrieves the most relevant research papers for a given query, generates concise summaries, extracts important keywords and research entities, and visualizes the similarity between retrieved papers.
-
-
-# AI Research Paper Analyzer
+# AI Research Paper Intelligence System
 
 AI Research Paper Analyzer is an NLP-based application that helps users search, analyze, and understand research papers using semantic search, transformer models, vector databases, and Large Language Models (LLMs).
 
