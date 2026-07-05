@@ -5,6 +5,75 @@ AI Research Paper Intelligence System is an NLP-based application that helps use
 
 The system retrieves the most relevant research papers for a given query, generates concise summaries, extracts important keywords and research entities, and visualizes the similarity between retrieved papers.
 
+##  Features
+
+###  Semantic Research Paper Search
+- Search research papers using natural language queries.
+- Uses Sentence Transformers for semantic embeddings.
+- Retrieves the most relevant papers using FAISS vector search.
+
+---
+
+###  AI-powered Summarization
+- Generates concise summaries of research paper abstracts.
+- Built using Facebook's BART Large CNN summarization model.
+
+---
+
+###  Keyword Extraction
+Automatically extracts important keywords and phrases from each research paper using KeyBERT.
+
+Example:
+
+- Deep Learning
+- Medical Imaging
+- CNN
+- Image Reconstruction
+
+---
+
+###  LLM-based Research Entity Extraction
+
+Uses Google Gemini to intelligently extract structured research information.
+
+Extracted entities include:
+
+- Models
+- Datasets
+- Methods
+- Frameworks
+- Metrics
+- Optimizers
+
+Example:
+
+```json
+{
+  "Models": ["CNN", "ResNet"],
+  "Datasets": ["ImageNet"],
+  "Methods": ["Transfer Learning"],
+  "Frameworks": ["PyTorch"],
+  "Metrics": ["Accuracy"],
+  "Optimizers": ["Adam"]
+}
+```
+
+---
+
+###  Similarity Heatmap
+
+Visualizes how similar the retrieved research papers are to each other using cosine similarity.
+
+This helps users quickly understand:
+
+- Similar research topics
+- Closely related papers
+- Paper clusters
+
+---
+
+
+
 ## Tech Stack
 
 | Category | Technology |
