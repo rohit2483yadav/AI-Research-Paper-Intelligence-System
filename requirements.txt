@@ -1,0 +1,10 @@
+datasets
+sentence-transformers
+faiss-cpu
+transformers==4.46.3
+keybert==0.8.5
+google-generativeai
+matplotlib
+numpy
+pandas
+scikit-learn
