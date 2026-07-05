@@ -1,16 +1,7 @@
-# Python
-__pycache__/
+data/*.npy
+data/*.index
+
 *.pyc
+__pycache__/
 
-# Jupyter
 .ipynb_checkpoints/
-
-# Environment files
-.env
-
-# VS Code
-.vscode/
-
-# Generated files
-paper_embeddings.npy
-paper_faiss.index
